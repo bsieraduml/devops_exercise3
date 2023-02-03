@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo this is a main branch'
+                sh 'uname -a'
+                echo 'this is a main branch'
             }
         }
     }
